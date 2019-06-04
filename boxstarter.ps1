@@ -183,10 +183,10 @@ code --install-extension nonoroazoro.syncing
 
 # browsers
 choco install firefox -y
-choco instal googlechrome -y
+choco install googlechrome -y
 
 # python
-choco instal python3 -y
+choco install python3 -y
 py -3 -m pip install -U pip
 
 # apps
