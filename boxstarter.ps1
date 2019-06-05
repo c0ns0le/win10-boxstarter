@@ -59,8 +59,8 @@ $apps = @(
     # "Microsoft.XboxGamingOverlay"
     # "Microsoft.XboxSpeechToTextOverlay"
     # "Microsoft.Xbox.TCUI"
-    "Microsoft.ZuneMusic"
-    "Microsoft.ZuneVideo"
+    # "Microsoft.ZuneMusic"
+    # "Microsoft.ZuneVideo"
     
     
     # Threshold 2 apps
