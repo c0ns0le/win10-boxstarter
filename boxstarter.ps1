@@ -189,7 +189,6 @@ choco install googlechrome -y
 
 # apps
 choco install vlc -y
-choco install 7zip.install -y
 choco install qbittorrent -y
 choco install hyper -y
 choco install sumatrapdf.install -y
