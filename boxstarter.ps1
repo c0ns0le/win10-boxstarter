@@ -164,7 +164,7 @@ choco upgrade inconsolata -y
 
 # common dev tools
 choco install -y vscode
-choco install -y git --package-parameters="'/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration'"
+choco install -y git --package-parameters="/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration"
 choco install -y poshgit
 choco install -y Git-Credential-Manager-for-Windows
 choco install -y python
@@ -188,6 +188,7 @@ choco install googlechrome -y
 # python
 choco install python3 -y
 py -3 -m pip install -U pip
+py -3 -m pip install --user pipenv
 
 # apps
 choco install vlc -y
