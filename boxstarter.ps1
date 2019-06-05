@@ -168,6 +168,8 @@ choco install -y git --package-parameters="/GitOnlyOnPath /NoAutoCrlf /WindowsTe
 choco install -y poshgit
 choco install -y Git-Credential-Manager-for-Windows
 choco install -y python
+py -3 -m pip install -U pip
+py -3 -m pip install --user pipenv
 choco install -y 7zip.install
 choco install -y sysinternals
 
@@ -184,11 +186,6 @@ code --install-extension nonoroazoro.syncing
 # browsers
 choco install firefox -y
 choco install googlechrome -y
-
-# python
-choco install python3 -y
-py -3 -m pip install -U pip
-py -3 -m pip install --user pipenv
 
 # apps
 choco install vlc -y
