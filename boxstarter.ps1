@@ -204,12 +204,12 @@ Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 # tweaks
 # Privacy: Let apps use my advertising ID: Disable
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo -Name Enabled -Type DWord -Value 0
-# Show hidden files, Show protected OS files, Show file extensions
+# Show file extensions
 Set-WindowsExplorerOptions -EnableShowFileExtensions
 # will expand explorer to the actual folder you're in
 Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneExpandToCurrentFolder -Value 1
 #adds things back in your left pane like recycle bin
-Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneShowAllFolders -Value 1
+# Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneShowAllFolders -Value 1
 
 # Restore Temporary Settings
 Enable-UAC
