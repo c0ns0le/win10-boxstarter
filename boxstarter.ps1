@@ -163,7 +163,7 @@ choco upgrade hackfont -y
 
 # common dev tools
 choco install -y vscode
-choco install -y git --package-parameters="/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration"
+choco install -y git --package-parameters="'/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration'"
 choco install -y poshgit
 choco install -y Git-Credential-Manager-for-Windows
 choco install -y python
