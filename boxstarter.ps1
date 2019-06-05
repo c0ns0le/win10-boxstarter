@@ -27,7 +27,7 @@ $apps = @(
     "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
     "Microsoft.BingFinance"
-    "Microsoft.BingNews"
+    # "Microsoft.BingNews"
     "Microsoft.BingSports"
     "Microsoft.BingTranslator"
     # "Microsoft.BingWeather"
@@ -128,7 +128,6 @@ $apps = @(
     "613EBCEA.PolarrPhotoEditorAcademicEdition"
     "Fitbit.FitbitCoach"
     "DolbyLaboratories.DolbyAccess"
-    # "Microsoft.BingNews"
     "NORDCURRENT.COOKINGFEVER"
 
     # apps which cannot be removed using Remove-AppxPackage
