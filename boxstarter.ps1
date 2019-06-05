@@ -162,21 +162,21 @@ choco upgrade hackfont -y
 # choco upgrade inconsolata -y
 
 # common dev tools
-choco install -y vscode
-choco install -y git --params "/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration"
-choco install -y poshgit
-choco install -y Git-Credential-Manager-for-Windows
-choco install -y python
+choco install vscode  -y 
+choco install git --params "/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration"  -y 
+choco install poshgit  -y 
+choco install Git-Credential-Manager-for-Windows  -y 
+choco install python  -y 
 py -3 -m pip install -U pip
 py -3 -m pip install --user pipenv
-choco install -y 7zip.install
-choco install -y sysinternals
+choco install 7zip.install -y
+choco install sysinternals -y
 
 # web dev
 choco upgrade nodejs-lts -y
-choco install -y visualstudio2017buildtools
-choco install -y visualstudio2017-workload-vctools
-choco install -y python2 # Node.js requires Python 2 to build native modules
+choco install visualstudio2017buildtools  -y
+choco install visualstudio2017-workload-vctools  -y 
+choco install python2 -y # Node.js requires Python 2 to build native modules
 choco install hugo -y
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
