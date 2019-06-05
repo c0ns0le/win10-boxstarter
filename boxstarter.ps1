@@ -159,7 +159,7 @@ Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelU
 # fonts
 choco upgrade firacode -y
 choco upgrade hackfont -y
-choco upgrade inconsolata -y
+# choco upgrade inconsolata -y
 
 # common dev tools
 choco install -y vscode
