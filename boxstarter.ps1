@@ -49,7 +49,7 @@ $apps = @(
     "Microsoft.WindowsAlarms"
     #"Microsoft.WindowsCalculator"
     # "Microsoft.WindowsCamera"
-    "microsoft.windowscommunicationsapps"
+    # "microsoft.windowscommunicationsapps"
     # "Microsoft.WindowsMaps"
     "Microsoft.WindowsPhone"
     # "Microsoft.WindowsSoundRecorder"
