@@ -180,7 +180,6 @@ choco install visualstudio2017-workload-vctools  -y
 choco install python2 -y # Node.js requires Python 2 to build native modules
 choco install hugo -y
 code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension msjsdiag.debugger-for-edge
 code --install-extension nonoroazoro.syncing
 
 # browsers
