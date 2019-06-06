@@ -162,7 +162,8 @@ choco upgrade hackfont -y
 # choco upgrade inconsolata -y
 
 # common dev tools
-choco install vscode  -y 
+# choco install vscode  -y
+# don't use choco for vscode (better to do local user install)
 choco install git --params "/GitOnlyOnPath /NoAutoCrlf /WindowsTerminal /NoShellIntegration"  -y 
 choco install poshgit  -y 
 choco install Git-Credential-Manager-for-Windows  -y 
