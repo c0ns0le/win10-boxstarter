@@ -46,12 +46,12 @@ $apps = @(
     # "Microsoft.SkypeApp"
     "Microsoft.Wallet"
     #"Microsoft.Windows.Photos"
-    "Microsoft.WindowsAlarms"
+    # "Microsoft.WindowsAlarms"
     #"Microsoft.WindowsCalculator"
     # "Microsoft.WindowsCamera"
     # "microsoft.windowscommunicationsapps"
     # "Microsoft.WindowsMaps"
-    "Microsoft.WindowsPhone"
+    # "Microsoft.WindowsPhone"
     # "Microsoft.WindowsSoundRecorder"
     #"Microsoft.WindowsStore"   # can't be re-installed
     # "Microsoft.XboxApp"
@@ -64,7 +64,7 @@ $apps = @(
     
     
     # Threshold 2 apps
-    "Microsoft.CommsPhone"
+    # "Microsoft.CommsPhone"
     "Microsoft.ConnectivityStore"
     # "Microsoft.GetHelp"
     # "Microsoft.Getstarted"
@@ -200,7 +200,7 @@ choco install ffmpeg -y
 
 # windows features
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
-choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
+choco install -y Microsoft-Windows-Subsystem-Linux -source windowsFeatures
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 
 
@@ -210,7 +210,7 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Advertisi
 # Show file extensions
 Set-WindowsExplorerOptions -EnableShowFileExtensions
 # will expand explorer to the actual folder you're in
-Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneExpandToCurrentFolder -Value 1
+# Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneExpandToCurrentFolder -Value 1
 #adds things back in your left pane like recycle bin
 # Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name NavPaneShowAllFolders -Value 1
 
