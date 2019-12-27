@@ -172,6 +172,8 @@ py -3 -m pip install -U pip
 py -3 -m pip install --user pipenv
 choco install 7zip.install -y
 choco install sysinternals -y
+choco upgrade procexp -y
+
 
 # java
 choco install jre8 -y
@@ -181,7 +183,8 @@ choco install nodejs-lts -y
 choco install yarn -y
 choco install visualstudio2017buildtools  -y
 choco install visualstudio2017-workload-vctools  -y 
-choco install python2 -y # Node.js requires Python 2 to build native modules
+# remember to run `yarn global add windows-build-tools` AS ADMIN after this scrip finishes
+# choco install python2 -y # Node.js requires Python 2 to build native modules
 choco install hugo -y
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension nonoroazoro.syncing
@@ -195,6 +198,7 @@ choco install vlc -y
 choco install qbittorrent -y
 choco install hyper -y
 choco install sumatrapdf.install -y
+choco upgrade adobereader -y
 # youtube-dl
 choco install youtube-dl -y
 choco install ffmpeg -y
