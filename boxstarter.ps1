@@ -157,9 +157,9 @@ foreach ($app in $apps) {
 Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelUnlock -Name AllowDevelopmentWithoutDevLicense -Value 1
 
 # fonts
-choco upgrade firacode -y
-choco upgrade hackfont -y
-# choco upgrade inconsolata -y
+choco install firacode -y
+choco install hackfont -y
+# choco install inconsolata -y
 
 # common dev tools
 # choco install vscode  -y
@@ -170,10 +170,6 @@ choco install Git-Credential-Manager-for-Windows  -y
 choco install python  -y 
 py -3 -m pip install -U pip
 py -3 -m pip install --user pipenv
-choco install 7zip.install -y
-choco install sysinternals -y
-choco upgrade procexp -y
-
 
 # java
 choco install jre8 -y
@@ -196,12 +192,14 @@ choco install googlechrome -y
 # apps
 choco install vlc -y
 choco install qbittorrent -y
-choco install hyper -y
 choco install sumatrapdf.install -y
-choco upgrade adobereader -y
-# youtube-dl
+choco install adobereader -y
+
+# utils
 choco install youtube-dl -y
 choco install ffmpeg -y
+choco install 7zip.install -y
+choco install sysinternals -y
 
 # windows features
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
