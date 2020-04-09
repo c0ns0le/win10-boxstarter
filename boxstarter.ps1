@@ -1,6 +1,8 @@
 # Description: Boxstarter Script
 # Author: Joseph Stahl
 # Last Updated: 2019-06-04
+#
+# URL: https://raw.githubusercontent.com/josephst/win10-boxstarter/master/boxstarter.ps1
 # 
 # Based on Jess Fraz (https://gist.github.com/jessfraz/7c319b046daa101a4aaef937a20ff41f)
 # Microsoft (https://github.com/microsoft/windows-dev-box-setup-scripts)
