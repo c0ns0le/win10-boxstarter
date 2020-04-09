@@ -178,7 +178,7 @@ choco install jre8 -y
 
 # web dev
 choco install nodejs-lts -y
-choco install yarn -y
+# choco install yarn -y
 choco install visualstudio2017buildtools  -y
 choco install visualstudio2017-workload-vctools  -y 
 # remember to run `yarn global add windows-build-tools` AS ADMIN after this scrip finishes
