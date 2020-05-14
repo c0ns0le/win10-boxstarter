@@ -174,7 +174,7 @@ py -3 -m pip install -U pip
 py -3 -m pip install --user pipenv
 
 # java
-choco install jre8 -y
+# choco install jre8 -y
 
 # web dev
 choco install nodejs-lts -y
